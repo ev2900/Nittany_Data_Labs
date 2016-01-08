@@ -2,8 +2,8 @@
 .large-header {
 	position: relative;
 	width: 100%;
-	background-image: url('https://s3-us-west-2.amazonaws.com/nittanydatalabs/background-rolling-mountains.jpg');
-	overflow: hidden;
+	background-image: url('https://s3-us-west-2.amazonaws.com/nldwebsite/back_ground.png');
+	overflow: ;
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
