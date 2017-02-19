@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Routess
 	//EJS Routes
 	app.get('/', function (req, res) {
-	  res.render("index.ejs");
+	  res.redirect('https://www.facebook.com/events/1837115179909709/');
 	});
 
 // Start server
