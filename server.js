@@ -21,9 +21,15 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Routess
+	
 	//EJS Routes
 	app.get('/', function (req, res) {
 	  res.redirect('https://www.facebook.com/events/1837115179909709/');
+	});
+
+	//EJS Routes
+	app.get('/watson', function (req, res) {
+	  res.render("watson.ejs");
 	});
 
 // Start server
