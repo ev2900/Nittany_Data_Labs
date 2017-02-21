@@ -32,6 +32,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 	  res.render("watson.ejs");
 	});
 
+	app.get('/legacy', function (req, res) {
+	  res.render("index.ejs");
+	});
+
 // Start server
 app.listen(80);
 console.log('API is running on port 80');
