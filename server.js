@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 	
 	//EJS Routes
 	app.get('/', function (req, res) {
-	  res.redirect('https://www.facebook.com/events/272313356523663/');
+	  res.redirect('https://www.facebook.com/events/1775548189439442/');
 	});
 
 	//EJS Routes
